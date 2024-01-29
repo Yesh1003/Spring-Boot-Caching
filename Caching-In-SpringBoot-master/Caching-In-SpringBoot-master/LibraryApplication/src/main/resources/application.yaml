@@ -1,0 +1,18 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: library-app
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/book_db
+    username: root
+    password: Yesh321@#$
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    platform : mysql
+
+
+  jpa:
+    hibernate:
+      ddl-auto : update
